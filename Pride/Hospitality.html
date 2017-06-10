@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Pride'16-SPSU</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/media-queries.css">         
+
+   <!-- Script
+   =================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	=================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body class="homepage">
+
+   <div id="preloader"> 
+	   <div id="status">
+         <img src="images/loader.gif" height="60" width="60" alt="">
+         <div class="loader">Loading...</div>
+      </div>
+   </div>
+   
+
+   <!-- Header
+   =================================================== -->
+   <header id="main-header">
+
+   	<div class="row header-inner">
+
+	      <div class="logo">
+	         <a href="index.html">Pride.</a>
+	      </div>
+
+	      <nav id="nav-wrap">         
+	         
+	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	         	<span class='menu-text'>Show Menu</span>
+	         	<span class="menu-icon"></span>
+	         </a>
+         	<a class="mobile-btn" href="#" title="Hide navigation">
+         		<span class='menu-text'>Hide Menu</span>
+         		<span class="menu-icon"></span>
+         	</a>         
+
+	        <ul id="nav" class="nav">
+	            <li><a href="index.html#hero">Home</a></li>
+		         <li><a href="Gallery.html">Gallery</a></li>
+	            <li><a href="Hospitality.html">Hospitality</a></li>
+	            <li><a href="index.html#about">About</a></li>
+	            <li class="current"><a href="index.html#journal">Events</a></li>
+				<li><a href="TeamMembers.html" target="_blank">Team</a></li>
+				<li><a href="Register.html" target="_blank">Register</a></li>	
+				<li><a href="Sponsors.html">Sponsors</a></li>				
+	           
+	         </ul> 
+
+	      </nav> <!-- /nav-wrap -->	      
+
+	   </div> <!-- /header-inner -->
+
+   </header>
+
+
+   <!-- Page Title
+   ================================================== -->
+   <section id="page-title">	
+   	  
+		<div class="row">
+
+			<div class="twelve columns">
+
+				<h1>Hospitality<span></span></h1>
+			
+
+			</div>			    
+
+		</div> <!-- /row -->	   
+
+   </section> <!-- /page-title -->
+
+
+   <!-- Content
+   ================================================== -->
+       	<div class="row about-content">
+
+      		<div class="twelve columns">
+	<br />
+		        <h1 style="color:white !important"> Charges are as mentioned Below : </h1>
+ <h3 style="color:white !important">1. Accommodation: Rs 150/day </h3> 
+ <h3 style="color:white !important">2. Caution money: Rs 100/- (Refundable) </h3> 
+ <h3 style="color:white !important">3. Food charges: Rs 150/day (which covers breakfast, lunch and dinner). </h3> 
+
+ <br /> <br /> 
+ 
+<h3 style="color:white !important"> NOTE* </h3>
+<p style="color:white !important">
+In exceptional circumstances the refund amount may be forfeited subject to one or more of the following conditions: <br />
+i) Permanent damage has been done to the room/dorm/accessories where accommodation has been provided. <br/ >
+ii) Rooms are not vacated on or before 21st October 10:00 am. <br />
+
+The payment will be done at registration desk in cash/cheque at the Sir Padampat Singhania University campus, Udaipur.
+Refund has to be collected from accommodation desk.
+PRIDE is not liable to refund the amount in case of any mistake made by the person paying the amount.
+
+</p>
+ <br /> <br /> 
+
+ <h3 style="color:white !important">
+Policy:  </h3> 
+<p style="color:white !important">
+Everybody willing to avail accommodation in Pride must register on our website or can reach us on the campus.
+When you arrive at SPSU Udaipur, you have to come to accommodation desk, along with your college ID card. The list of all the students from a particular college must be present along with their ID proof. Your place of stay will be allotted along with your accommodation ID. Accommodation would be strictly on shared basis.
+Each student will be given accommodation only after it has been confirmed by the Hospitality Core Group Members.
+Students can avail accommodation facilities from 15th October 7:00 pm to 21st October 10:00 am.
+</p>
+ <h3 style="color:white !important">
+Getting here:  </h3> 
+<p style="color:white !important">
+The Sir Padampat Singhania University Campus is located about 10 Kms from the Maharana Pratap Udaipur Airport. You can hire a taxi from outside the airport to reach the campus in Bhatewar. <br />
+
+</p>
+
+
+ <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+  <br /><br /><br />
+    <h3 style="color:white !important">	Map</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 24.617750, lng: 73.991836};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNagYxFAmbXW1s22302X44icdiUGLEzTM&callback=initMap">
+    </script>
+  </body>
+
+	         </div> <!-- /team-wrapper -->
+
+         </div> <!-- /row -->
+
+      </div> <!-- /team -->  
+
+   <!-- Footer
+   ================================================== -->
+  <footer>
+
+      <div class="row">       
+
+         <div class="six columns tab-whole footer-about">
+				
+				<h3>About spsu</h3>
+               
+            <p><a href="http://www.spsu.ac.in">Visit SPSU </a>
+            </p>
+
+                 
+
+         </div> <!-- /footer-about -->
+
+		 
+         <div class="six columns tab-whole right-cols">
+
+            <div class="row">
+
+               <div class="columns">
+                  <h3 class="address">Reach Us</h3>
+                  <p>
+                  CAMPUS OFFICE
+
+					Address: Sir Padampat Singhania University Bhatewar
+					Udaipur 313 601, Rajasthan
+					Number - +917727079668
+					Email: pride@spsu.ac.in<br>
+                  
+                  </p>
+<!--
+                  <ul>
+                    <li><a href="tel:6473438234">647.343.8234</a></li>
+                    <li><a href="tel:1234567890">123.456.7890</a></li>
+                    <li><a href="mailto:someone@puremedia.com">someone@puremedia.com</a></li>
+                  </ul>    -->              
+               </div> <!-- /columns -->             
+
+               <div class="columns last">
+                  <h3 class="contact">Follow Us</h3>
+
+                  <ul>
+                     <li><a href="https://www.facebook.com/spsu.pride">Facebook</a></li>
+                    
+                     <li><a href="https://www.instagram.com/pride_spsu">Instagram</a></li>
+                    
+                  </ul>
+                  
+               </div> <!-- /columns --> 
+
+            </div> <!-- /Row(nested) -->
+
+         </div>
+
+         <p class="copyright">&copy; Copyright 2014 Puremedia. Design by <a href="http://www.styleshout.com/">Styleshout.</a></p>        
+
+         <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#hero"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
+         </div>
+
+      </div> <!-- /row -->
+
+   </footer> <!-- /footer -->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/backstretch.js"></script> 
+   <script src="js/waypoints.js"></script>  
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
